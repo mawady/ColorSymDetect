@@ -1,6 +1,6 @@
 # Color-based Reflection Symmetry Detection
 
-Unsupervised Reflection Symmetry Detection using Log_Gabor Filters and Textural & Color Histograms
+Unsupervised Reflection Symmetry Detection using Log-Gabor Filters and Textural & Color Histograms
 
 Release Date: 2017
 
