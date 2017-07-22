@@ -1,4 +1,10 @@
-function [symRes,voteMapBlur] = symBilOurCentLogGaborHSV(Image)
+function [symRes,voteMap] = symBilOurCentLogGaborHSV(Image)
+%- Parameter(s):
+% Image - Input image (RGB or Gray-scale)
+%- Returned value:
+% symRes -  Information of symmetry candidates 
+%           (columns: x1,y1,x2,y2,score,normalized_score)
+% voteMap - Probability estimation of symmetry voting space
 %% Wavelet feature extraction:
 %   - Compute LogGabor response
 %   - Define characteristics of edge features
@@ -61,7 +67,7 @@ symData = computeSymAxis(Image,voteData,maxData,voteParam,maxParam);
 
 %%
 
-voteMapBlur = maxData.voteMapBlur;
+voteMap = maxData.voteMapBlur;
 symRes = zeros(size(symData.scores,1),5);
 for i=1:size(symData.scores,1)
     symRes(i,1:2) = symData.axsSt{i};
@@ -73,7 +79,7 @@ if(size(symRes,1)>1)
     scr = symRes(:,5);
     [~,idx] = sort(scr,'descend');
     symRes = symRes(idx,:);
-%     symRes(:,5) = symRes(:,5) ./ symRes(1,5);
+    symRes(:,6) = symRes(:,5) ./ symRes(1,5);
 end
 
 end

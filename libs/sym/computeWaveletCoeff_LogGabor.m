@@ -63,7 +63,8 @@ for k = 1:nr
         C(k,l) = max(max(ampMs));
         [rm,cm] = find(ampMs == C(k,l));
 
-        A(k,l) = (angMs(rm,cm)-1)*pi/nAngs+pi/2;
+%         A(k,l) = (angMs(rm,cm)-1)*pi/nAngs+pi/2;
+        A(k,l) = (angMs(rm,cm)-1)*pi/nAngs-pi/2;
         X(k,l) = row+rm-(halfWindowSize+1);
         Y(k,l) = col+cm-(halfWindowSize+1);
         SC(k,l) = sclMs(rm,cm);
@@ -71,7 +72,7 @@ for k = 1:nr
         %--Calculation of histogram of magnitude orientations
         orVec = angMs(:);
         mgVec = ampMs(:);
-
+                
         [~,~,whichBin] = histcounts(orVec,binEdgesT);
         whichBin = whichBin+1;
         histOrMag = zeros(1,histBinNumT);

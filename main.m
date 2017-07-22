@@ -1,13 +1,7 @@
 clc; clear all; close all; warning off;
 %%
+restoredefaultpath;
 addpath(genpath(fullfile('.','libs')));
-%%
-% srcDir = '../data/input/dataset_AVA';
-% SymGT = load('../data/GT/GT_AVA/AVA_GT.mat');
-% FileNames = SymGT.new_cell_GT(:,1);
-% SymEll = SymGT.new_cell_GT(:,2);
-% i = 221;
-% file = strtrim(FileNames{i});
 %%
 srcDir = './input';
 file = '16057.jpg';
@@ -16,10 +10,10 @@ file = '16057.jpg';
 img = imread([srcDir '/' file]);
 disp(['Processing : ' name]);
 tic;
-SymOcLgHSV = symBilOurCentLogGaborHSV(img);
+[SymOcLgHSV,voteMap] = symBilOurCentLogGaborHSV(img);
 toc;
 %%
-Num = 10;
+Num = 5;
 
 MarkerEdgeColors=hsv(Num);
 str = {};
@@ -37,3 +31,5 @@ for j=1:min(Num,size(SymOcLgHSV,1))
 end
 legend(str,'Location','BestOutside');
 hold off;
+%%
+figure,imagesc(voteMap); colormap('jet'); axis off;

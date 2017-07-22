@@ -10,13 +10,15 @@ sym_hst = zeros(npairs,1);
 sym_clr = zeros(npairs,1);
 pntP = cell(npairs,1);
 pntQ = cell(npairs,1);
-rp = randperm(s);
 itr = 1;
+
+% rp = randperm(s);
+rp = 1:s;
 for jj = 1:s-1
     for kk = jj+1:s
         j = rp(jj);
         k = rp(kk);
-        
+
         p = [wavData.x(j); wavData.y(j)];
         q = [wavData.x(k); wavData.y(k)];
         taup = [cos(wavData.a(j)); sin(wavData.a(j))];

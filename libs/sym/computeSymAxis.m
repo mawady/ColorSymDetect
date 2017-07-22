@@ -24,8 +24,6 @@ end
 
 axsSt = {};
 axsEd = {};
-pntSt = zeros(size(maxData.locs,2),1);
-pntEd = zeros(size(maxData.locs,2),1);
 for i=1:size(maxData.locs,2)
     bilSymC_Our = axisLoc{i};
     if(~isempty(bilSymC_Our))
