@@ -9,6 +9,7 @@ Users of this software are encouraged to cite the following article:
 The sample photos are kindly provided by Aesthetic Visual Analysis (AVA) dataset.
 
 Contact: Mohamed Elawady (mohamed [dot] elawady [at] univ-st-etienne [dot] fr)
+
 http://github.com/mawady/ColorSymDetect
 
 
