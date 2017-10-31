@@ -3,8 +3,7 @@
 Unsupervised Reflection Symmetry Detection using Log-Gabor Filters and Textural & Color Histograms - July 2017
 
 Users of this software are encouraged to cite the following article:
-
-Mohamed Elawady, Christophe Ducottet, Olivier Alata, Cecile Barat, Philippe Colantoni; The IEEE International Conference on Computer Vision (ICCV), 2017, pp. 1734-1738. [https://arxiv.org/abs/1707.02931]
++ Mohamed Elawady, Christophe Ducottet, Olivier Alata, Cecile Barat, Philippe Colantoni; The IEEE International Conference on Computer Vision (ICCV), 2017, pp. 1734-1738. [https://arxiv.org/abs/1707.02931]
 
 @InProceedings{Elawady_2017_ICCV,
 author = {Elawady, Mohamed and Ducottet, Christophe and Alata, Olivier and Barat, Cecile and Colantoni, Philippe},
