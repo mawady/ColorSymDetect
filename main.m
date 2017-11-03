@@ -4,10 +4,11 @@ restoredefaultpath;
 addpath(genpath(fullfile('.','libs')));
 %%
 srcDir = './input';
-file = '16057.jpg';
+file = '832053.jpg';
 %%
 [~,name,~] = fileparts(file);
 img = imread([srcDir '/' file]);
+img = imresize(img,0.25);
 disp(['Processing : ' name]);
 tic;
 [SymOcLgHSV,voteMap] = symBilOurCentLogGaborHSV(img);
