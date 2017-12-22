@@ -1,9 +1,9 @@
 # Color-based Reflection Symmetry Detection
 
-Winner of ICCV 2017 2D reflection symmetry competitions (among participants) - First two places are among baseline algorithms
+Winner of ICCV 2017 2D reflection symmetry competitions (among participants - conference rank A*) - First two places are among baseline algorithms
 
 Users of this software are encouraged to cite the following article:
-+ Elawady, M., Ducottet, C., Alata, O., Barat, C., & Colantoni, P. (2017). Wavelet-Based Reflection Symmetry Detection via Textural and Color Histograms. ICCV 2017 Workshop Challenge: Detecting Symmetry in the Wild. (Core Rank A*) [PDF](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w24/Elawady_Wavelet-Based_Reflection_Symmetry_ICCV_2017_paper.pdf)
++ Elawady, M., Ducottet, C., Alata, O., Barat, C., & Colantoni, P. (2017). Wavelet-Based Reflection Symmetry Detection via Textural and Color Histograms. ICCV 2017 Workshop Challenge: Detecting Symmetry in the Wild.
 
 @InProceedings{Elawady_2017_ICCV,
 author = {Elawady, Mohamed and Ducottet, Christophe and Alata, Olivier and Barat, Cecile and Colantoni, Philippe},
@@ -12,6 +12,8 @@ booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
 month = {Oct},
 year = {2017}
 }
+
+[You can download the paper here!](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w24/Elawady_Wavelet-Based_Reflection_Symmetry_ICCV_2017_paper.pdf)
 
 The sample photos are kindly provided by Aesthetic Visual Analysis (AVA) dataset.
 
