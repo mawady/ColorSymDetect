@@ -1,9 +1,9 @@
 # Color-based Reflection Symmetry Detection
 
-Unsupervised Reflection Symmetry Detection using Log-Gabor Filters and Textural & Color Histograms - July 2017
+Winner of ICCV 2017 2D reflection symmetry competitions (among participants) - First two places are among baseline algorithms
 
 Users of this software are encouraged to cite the following article:
-+ Mohamed Elawady, Christophe Ducottet, Olivier Alata, Cecile Barat, Philippe Colantoni; The IEEE International Conference on Computer Vision (ICCV), 2017, pp. 1734-1738. [https://arxiv.org/abs/1707.02931]
++ Elawady, M., Ducottet, C., Alata, O., Barat, C., & Colantoni, P. (2017). Wavelet-Based Reflection Symmetry Detection via Textural and Color Histograms. ICCV 2017 Workshop Challenge: Detecting Symmetry in the Wild. (Core Rank A*)
 
 @InProceedings{Elawady_2017_ICCV,
 author = {Elawady, Mohamed and Ducottet, Christophe and Alata, Olivier and Barat, Cecile and Colantoni, Philippe},
