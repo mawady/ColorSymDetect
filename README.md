@@ -4,7 +4,7 @@ Winner of ICCV 2017 2D reflection symmetry competitions (among participants - co
 
 Users of this software are encouraged to cite the following article:
 + Elawady, Mohamed, Christophe Ducottet, Olivier Alata, Cécile Barat, and Philippe Colantoni. "Wavelet-based reflection symmetry detection via textural and color histograms." In Proceedings, ICCV Workshop on Detecting Symmetry in the Wild, Venice, vol. 3, p. 7. 2017.
-
+```
 @inproceedings{elawady2017wavelet,
   title={Wavelet-based reflection symmetry detection via textural and color histograms},
   author={Elawady, Mohamed and Ducottet, Christophe and Alata, Olivier and Barat, Cecile and Colantoni, Philippe},
@@ -13,6 +13,7 @@ Users of this software are encouraged to cite the following article:
   pages={7},
   year={2017}
 }
+```
 
 [You can download the paper here!](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w24/Elawady_Wavelet-Based_Reflection_Symmetry_ICCV_2017_paper.pdf)
 
