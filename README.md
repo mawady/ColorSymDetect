@@ -1,6 +1,7 @@
 # Color-based Reflection Symmetry Detection
 
-Winner of ICCV 2017 2D reflection symmetry competitions (among participants - conference rank A*)
+Winner of ICCV 2017 2D reflection symmetry detection challenge (among participants - conference rank A*)
+[Funk, Christopher, et al. "2017 ICCV challenge: Detecting symmetry in the wild." Proceedings of the IEEE International Conference on Computer Vision Workshops. 2017.](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w24/Funk_2017_ICCV_Challenge_ICCV_2017_paper.pdf)
 
 ![Award certificate](ICCV_WinningCertificates.png "Award certificate")
 
