@@ -2,6 +2,8 @@
 
 Winner of ICCV 2017 2D reflection symmetry competitions (among participants - conference rank A*)
 
+![Award certificate](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+
 Users of this software are encouraged to cite the following article:
 + Elawady, Mohamed, Christophe Ducottet, Olivier Alata, Cécile Barat, and Philippe Colantoni. "Wavelet-based reflection symmetry detection via textural and color histograms." In Proceedings, ICCV Workshop on Detecting Symmetry in the Wild, Venice, vol. 3, p. 7. 2017.
 ```
